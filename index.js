@@ -1,3 +1,3 @@
-const { getConsoleProcessList } = require('bindings')('win_export_cert');
+const { getConsoleProcessList } = require('bindings')('get_console_process_list');
 
 module.exports = getConsoleProcessList;
