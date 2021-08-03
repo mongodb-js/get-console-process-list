@@ -1,6 +1,6 @@
 {
   "name": "get-console-process-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get all process ids attached to the current Windows console",
   "main": "index.js",
   "scripts": {
