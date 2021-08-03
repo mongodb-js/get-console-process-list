@@ -1,6 +1,6 @@
 {
   'targets': [{
-    'target_name': 'win_export_cert',
+    'target_name': 'get_console_process_list',
     'sources': [ 'binding.cc' ],
     'include_dirs': ["<!@(node -p \"require('node-addon-api').include\")"],
     'dependencies': ["<!(node -p \"require('node-addon-api').gyp\")"],
